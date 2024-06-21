@@ -1,0 +1,239 @@
+/*discribe by TradeOffEgoist*/
+@font-face {
+  font-family: "KCC-Hanbit";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/KCC-Hanbit.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin: 0px 0px;
+  padding: 0px 0px;
+
+  background-color: #ffffff;
+  font-family: "KCC-Hanbit";
+}
+
+header {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 100%;
+
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.header_1 {
+  display: flex;
+  gap: 32px;
+  padding: 0px auto;
+  margin: 0px auto;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  display: flex;
+  font-size: 21px;
+}
+
+.nav_item {
+  display: flex;
+  width: 109px;
+  height: 69px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+
+.panda_logo {
+  width: 153px;
+  height: 51px;
+}
+
+.login_btn {
+  width: 100px;
+  height: 51px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.page_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 540px;
+  padding: 170px 360px;
+  box-sizing: border-box;
+  margin: 0px 0px;
+  background-color: #cfe5ff;
+}
+.p_1_panda {
+  width: 996px;
+  height: 447px;
+  position: relative;
+  top: 47px;
+  left: 60px;
+}
+.page_1_text_btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 360px;
+  height: 170px;
+  gap: 32px;
+}
+
+.page_1_btn {
+  width: 357px;
+  height: 56px;
+}
+
+.page_1_text {
+  width: 320px;
+  height: 112px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.page_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 720px;
+  padding-top: 138px;
+  padding-bottom: 138px;
+  padding-left: 360px;
+  padding-right: 360px;
+  margin: 0px 0px;
+  box-sizing: border-box;
+
+  background-color: white;
+}
+@media (min-width: 1920px) {
+  .page_2 {
+    background-color: #cfe5ff;
+  }
+}
+
+.page_2_text_img {
+  display: flex;
+  flex-direction: row;
+  width: 955px;
+  height: 444px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  box-sizing: border-box;
+}
+.page_2_img {
+  width: 588px;
+  height: 444px;
+}
+
+.page_2_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 12px;
+  padding-top: 106px;
+  padding-bottom: 106px;
+  padding-left: 40px;
+  padding-right: 0px;
+  box-sizing: border-box;
+  width: 380px;
+}
+
+.page_3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 720px;
+  padding-top: 138px;
+  padding-bottom: 138px;
+  padding-left: 360px;
+  padding-right: 360px;
+  box-sizing: border-box;
+  margin: 0px 0px;
+  background-color: white;
+}
+@media (min-width: 1920px) {
+  .page_3 {
+    background-color: #cfe5ff;
+  }
+}
+
+.page_3_text_img {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 955px;
+  height: 444px;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+.page_3_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  gap: 12px;
+  padding-top: 106px;
+  padding-bottom: 106px;
+  padding-left: 0px;
+  padding-right: 58px;
+  box-sizing: border-box;
+  text-align: right;
+  width: 380px;
+}
+
+footer {
+  width: 100%;
+  height: 160px;
+  background-color: #111827;
+  box-sizing: border-box;
+
+  padding-left: 104px;
+  padding-right: 104px;
+  padding-top: 32px;
+  padding-bottom: 108px;
+
+  display: flex;
+}
+.footer_text {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+.icon {
+  display: flex;
+  gap: 12px;
+}
+.icon_item {
+  width: 20px;
+  height: 20px;
+}
